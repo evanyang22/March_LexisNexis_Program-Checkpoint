@@ -30,4 +30,15 @@ Current state- What is the issue with these programs/What do you need to fix?
 The main issue with these programs is the uncleanliness of pdftotext. My version of pdftotext created output files that were not very similiar to the original pdf, even with the -layout option. As a result, because of all the variability, in order to get decently clean data, I had to account for not only the base case (the most common format), but also other less common variant cases (other text file formats that did not resemble the base case). However, if you are able to produce uniform output text files using pdftotext, then this task becomes exponentially easier. 
 
 
+Program Documentation: what needs to be done?
+These programs extract information from the PDF files and export it as a csv file. Most of the work comes from finding ways to extract pieces of information. 
+
+1. ElaineDatasetCleaner- I just included this one to give you an example of how sometimes you need to create a quick program to clean up the data, you shouldn't really need this 
+2. 1_28_23_Extractor_Master- The issue we were having here was with the date ranges. The date ranges were not lining up nicely with the addresses for me in my pdfs, and because of that, I was writing some workarounds. If your pdftotext.exe is able to create nicely formatted files, the date range issue might just go away on its own. I marked off the region of code you may need to modify with "3/26/23" (you can control + F it).
+3. 2_24_CriminalFilings- This part of the project is done, I already sent Professor Lock the results so not much to do here.
+4. 2_22_Voter_Registration- When I ran it, I noticed some uncleanliness in some pdf files, again this was due to the uncleanliness of pdftotext. Additionally, Professor Lock wanted some additional pieces of information extracted, so I've added a marker of "3/26/23" to indicate a region of code you may need to change.
+
+
+
+
 If you have any questions, feel free to reach out to me @ evan.yang@emory.edu.
