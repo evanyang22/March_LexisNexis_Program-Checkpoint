@@ -26,6 +26,7 @@ Ex: python _____.py
 An output csv file should pop up in the folder when it is done. You can look at the output to see how well it performed. 
 
 Current state- What is the issue with these programs/What do you need to fix?
+
 The main issue with these programs is the uncleanliness of pdftotext. My version of pdftotext created output files that were not very similiar to the original pdf, even with the -layout option. As a result, because of all the variability, in order to get decently clean data, I had to account for not only the base case (the most common format), but also other less common variant cases (other text file formats that did not resemble the base case). However, if you are able to produce uniform output text files using pdftotext, then this task becomes exponentially easier. 
 
 
