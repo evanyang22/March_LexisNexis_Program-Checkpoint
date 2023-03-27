@@ -33,12 +33,13 @@ The main issue with these programs is the uncleanliness of pdftotext. My version
 Program Documentation: what needs to be done?
 These programs extract information from the PDF files and export it as a csv file. Most of the work comes from finding ways to extract pieces of information. 
 
-1. ElaineDatasetCleaner- I just included this one to give you an example of how sometimes you need to create a quick program to clean up the data, you shouldn't really need this 
+1. ElaineDatasetCleaner- I just included this one to give you an example of how sometimes you need to create a quick program to clean up and match the data, you shouldn't really need this. You might need to do something similiar to this for the other datasets that Professor Lock gives you.
 2. 1_28_23_Extractor_Master- The issue we were having here was with the date ranges. The date ranges were not lining up nicely with the addresses for me in my pdfs, and because of that, I was writing some workarounds. If your pdftotext.exe is able to create nicely formatted files, the date range issue might just go away on its own. I marked off the region of code you may need to modify with "3/26/23" (you can control + F it).
 3. 2_24_CriminalFilings- This part of the project is done, I already sent Professor Lock the results so not much to do here.
 4. 2_22_Voter_Registration- When I ran it, I noticed some uncleanliness in some pdf files, again this was due to the uncleanliness of pdftotext. Additionally, Professor Lock wanted some additional pieces of information extracted, so I've added a marker of "3/26/23" to indicate a region of code you may need to change.
 
-
+Jupyter Notebook: Helpful ideas
+I've been using Jupyter Notebook for basically this entire project, and I've found it super helpful. If you want here is a link to it: https://docs.jupyter.org/en/latest/install.html. It basically allows you to run code in segments at a time and test individual blocks or lines. 
 
 
 If you have any questions, feel free to reach out to me @ evan.yang@emory.edu.
