@@ -1,7 +1,7 @@
 # March_LexisNexis_Program-Checkpoint
 Cleaned Python Programs with supporting documentation that extract information from PDFs using pdftotext.exe
 
-Here is a list of important information that you should be familiar with before continuing this project.
+Here is a list of important information that you should be familiar with before continuing this project. 
 
 **Background information- What should you be familiar with before you start?**
 1. Python coding, specifically some specific modules that I will mention below that I tend to use
